@@ -1,5 +1,17 @@
 # danifernandezs_es
 
-Simple repository with an HTML page to redirect my personal webpage to the .com version.
+Redirect from [www.danifernandezs.es](https://www.danifernandezs.es) to [www.danifernandezs.com](https://www.danifernandezs.com)
 
-Published as a GitHub Page on the main branch.
+## How it works
+
+- `index.html` — Meta-refresh + JS redirect preserving path, query and hash
+- `404.html` — Same logic, served by GitHub Pages for unknown routes
+- `CNAME` — Maps to `www.danifernandezs.es`
+
+## Deploy
+
+GitHub Pages
+
+## Notes
+
+- No JS framework, no dependencies
